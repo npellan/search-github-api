@@ -1,0 +1,15 @@
+@use 'src/styles/vars';
+
+.github {
+  background-color: vars.$light-color;
+  padding: vars.$gutter;
+  min-height: 100vh;
+}
+
+.top {
+  text-align: center;
+  &__img {
+    max-width: 100%;
+    width: 150px;
+  }
+}

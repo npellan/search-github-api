@@ -1,0 +1,15 @@
+@use 'reset';
+@use 'vars';
+
+
+
+// or you can import your own font
+@font-face {
+  font-family: 'Roboto';
+  src: url('../assets/fonts/Roboto-Regular.ttf');
+}
+
+html body {
+  font-family: 'Roboto', sans-serif;
+  background-color: vars.$dark-color;
+}
